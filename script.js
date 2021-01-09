@@ -1,5 +1,6 @@
 const container = document.querySelector('.container')
-const text = document.querySelector('#text')
+const text = document.querySelector('#text');
+const note_text = document.querySelector('#note_text')
 
 const totalTime = 7500
 const breatheTime = (totalTime / 5) * 2

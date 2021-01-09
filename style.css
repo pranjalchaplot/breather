@@ -15,7 +15,7 @@ body {
 .container {
   display: flex;
   align-items: center;
-  top: -100px;
+  top: 40px;
   justify-content: center;
   height: 200px;
   width: 200px;
@@ -109,4 +109,12 @@ body {
   to {
     transform: scale(1);
   }
+}
+
+.note {
+  align-items: flex-start;
+  margin-top: -130px;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 10px;
 }
